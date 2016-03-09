@@ -1,0 +1,13 @@
+.wrapper {
+    width: 1024px;
+}
+
+.row {
+    width:100%;
+}
+
+.four {
+    width: 100%;
+    background: black;
+    height: 100px;
+}

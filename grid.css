@@ -1,0 +1,47 @@
+.wrapper {
+    width: 100%;
+    margin: auto;
+    max-width: 1024px;
+}
+
+.row {
+    width:100%;
+}
+
+.four, .two, .one, .three, .one{
+    width: 92%;
+    background: black;
+    height: 100px;
+    margin: 4%;
+    float: left;
+
+}
+.two {
+  width:42%;
+
+}
+
+.one{
+  width:17%;
+}
+
+.three{
+  width: 67%;
+
+}
+
+.one {
+  width: 17%;
+}
+
+@media (min-width: 1042px){
+  .one, .two, .three, .four {
+    background-color: red;
+  }
+}
+
+@media (max-width: 460px) {
+  .one, .two, .three, .four {
+    width: 92%;
+  }
+}
